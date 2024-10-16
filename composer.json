@@ -1,0 +1,19 @@
+{
+    "name": "tenebresus/snmp",
+    "description": "A simple SNMP PHP Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tenebresus\\Snmp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tyler Teppema",
+            "email": "tyler.teppema@brightfish.com"
+        }
+    ],
+    "require": {
+      "ext-sockets": "*"
+    }
+}
